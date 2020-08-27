@@ -185,6 +185,7 @@
                             </div>
                         </div>
                         <div id="hideFirst">
+                            <h5 class="display4 text-center mb-3"> JUICES</h5>
                             <div class="card-deck">
 
                                 <!-- Card -->
@@ -292,6 +293,7 @@
                         </div>
 
                         <div id="hideSecond">
+                            <h5 class="display4 text-center mb-3"> SMOOTHIES</h5>
                             <div class="card-deck">
 
                                 <!-- Card -->
@@ -399,6 +401,7 @@
                         </div>
 
                         <div id="hideThird">
+                            <h5 class="display4 text-center mb-3"> PARFAITS</h5>
                             <div class="card-deck">
 
                                 <!-- Card -->
@@ -521,11 +524,18 @@
 
                     document.getElementById("juice").onclick = function(){
                         document.getElementById("hideFirst").style.display="inline";
+                        document.getElementById("hideSecond").style.display="none";
+                        document.getElementById("hideThird").style.display="none";
+
                     }
                     document.getElementById("smoothie").onclick = function(){
+                        document.getElementById("hideFirst").style.display="none";
                         document.getElementById("hideSecond").style.display="inline";
+                        document.getElementById("hideThird").style.display="none";
                     }
                     document.getElementById("parfait").onclick = function(){
+                        document.getElementById("hideFirst").style.display="none";
+                        document.getElementById("hideSecond").style.display="none";
                         document.getElementById("hideThird").style.display="inline";
                     }
                     
