@@ -3,11 +3,46 @@ body{
     /* background-color: blueviolet; */
 }
 
+
 .jumbotron img{
     border-radius: 7px;
 }
 .jumbotron{
-    margin-top: 100px;
+    margin-top: 50px;
+    background-color:white;
+}
+
+.carousel-caption{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    top: 2%;
+    margin-left: 25%;
+    text-align: right;
+    color: black;
+}
+.carousel-caption h3{
+    font-size: 5em;
+    color:#218838;
+}
+
+.carousel-indicators li{
+    background-color: rgb(33, 136, 56);
+    
+}
+.carousel-control-prev-icon{
+    background-color: rgb(33, 136, 56);
+}
+.carousel-control-next-icon{
+    background-color: rgb(33, 136, 56);
+}
+
+.carousel-item a{
+    color: rgb(33, 136, 56);
+    border-color: rgb(33, 136, 56);
+    border-radius: 30px;
+    background-color: transparent;
+    background-image: none;
 }
 .products{
     align-content: center;
@@ -15,10 +50,40 @@ body{
     padding-top: 45px;
     /* width: 95%; */
 }
-
+.products button{
+    color: rgb(33, 136, 56);
+    border-color: rgb(33, 136, 56);
+    border-radius: 30px;
+    background-color: transparent;
+    background-image: none;
+}
+#products h3{
+    font-size: 4em;
+    color:white;
+}
+.menu{
+    align-content: center;
+    text-align: center;
+    /* padding-top: 45px; */
+    /* width: 95%; */
+}
 #menu{
     padding-top: 50px;
 }
+#menu h3{
+    font-size: 4em;
+    color: rgb(33, 136, 56);
+}
+.menuContainer button{
+    color: rgb(33, 136, 56);
+    border-color: rgb(33, 136, 56);
+    border-radius: 30px;
+    background-color: transparent;
+    background-image: none;
+}
+h5{
+    color:  rgb(33, 136, 56);
+}
 h4{
-    color: green;
+    color:  rgb(33, 136, 56);
 }
