@@ -4,12 +4,15 @@ body{
 }
 
 
-.jumbotron img{
+#home img{
     border-radius: 7px;
+    margin-left:70px;
+    margin-top: 70px;
 }
-.jumbotron{
-    margin-top: 50px;
-    background-color:white;
+#home{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    /* background-color:white; */
 }
 
 .carousel-caption{
@@ -44,22 +47,42 @@ body{
     background-color: transparent;
     background-image: none;
 }
-.products{
-    align-content: center;
-    text-align: center;
-    padding-top: 45px;
-    /* width: 95%; */
+
+.menuHeader h3{
+        font-size: 3em;
+        color: rgb(33, 136, 56);
 }
-.products button{
-    color: rgb(33, 136, 56);
-    border-color: rgb(33, 136, 56);
-    border-radius: 30px;
-    background-color: transparent;
-    background-image: none;
+.newMenu{
+    margin-left: 70px;
+    /* align-items: center;
+    align-content: center; */
 }
-#products h3{
-    font-size: 4em;
-    color:white;
+.menuImg{
+    margin: 10px;
+    border: 1px solid #ccc;
+    width: 250px;
+    border-radius: 9px;
+}
+.menuImg img{
+    width: 100%;
+    height: 100%;
+}
+.menuImg:hover{
+    border: 1px solid rgb(33, 136, 56);
+}
+
+
+
+
+
+
+.menuButtons{
+    position: relative;
+    right: 0;
+    width: 50%;
+    top: 2%;
+    margin-left: 25%;
+    text-align: right;
 }
 .menu{
     align-content: center;
@@ -71,7 +94,7 @@ body{
     padding-top: 50px;
 }
 #menu h3{
-    font-size: 4em;
+    font-size: 3em;
     color: rgb(33, 136, 56);
 }
 .menuContainer button{
@@ -80,6 +103,53 @@ body{
     border-radius: 30px;
     background-color: transparent;
     background-image: none;
+}
+
+#hideFirst{
+    
+    color:rgb(33, 136, 56);
+}
+#hideFirst h3{
+    color:rgb(33, 136, 56);
+    font-weight: bold;
+    font-size: 15em;
+    position: absolute;
+    right: 25%;
+    text-align: center;
+}
+#hideFirst img{
+    position: relative;
+    left: 40%;
+    z-index: -1;
+    /* width: 20%; */
+    /* width:260px;
+    height: 345px; */
+    /* top: 30%; */
+    /* margin-left: 25%; */
+}
+#para{
+    font-size: 3em;
+    padding-bottom: 10px;
+    color:rgb(33, 136, 56);
+    text-align: center;
+}
+
+#hideThird h3{
+    color:rgb(33, 136, 56);
+    font-weight: bold;
+    font-size: 15em;
+}
+
+.detox button{
+    color: rgb(33, 136, 56);
+    border-color: rgb(33, 136, 56);
+    border-radius: 30px;
+    background-color: transparent;
+    background-image: none;
+}
+#detox h3{
+    font-size: 3em;
+    color:rgb(33, 136, 56);
 }
 h5{
     color:  rgb(33, 136, 56);
