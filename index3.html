@@ -6,6 +6,7 @@
         <title>Fitz</title>
         <link rel="stylesheet" href="./content/plugins/bootstrap4/bootstrap-4.5.0-dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="./content/css/fitz.css">
+        <link rel="stylesheet" href="./content/plugins/font-awesome/css/font-awesome.min.css">
 
     </head>
     <body data-spy="scroll" data-target="#navbar" data-offset="155">
@@ -229,6 +230,15 @@
                     </div>
 
                     <div id="hideFirst">
+
+                        <div class="arrow">
+                            <!-- id="big" href="hideMenu" -->
+                            <button class="btn"  id="backBtn"><i class="fa fa-arrow-circle-left fa-4x">back.</i>
+                            </button> 
+                            <!-- <i class="btn btn-success fa fa-arrow-circle-left fa-4x" id="big"  href="hideMenu" style="margin-left:30px;">back.</i> -->
+                        </div> 
+                        <!-- <div id="triangle"></div>
+                        <P id="ptriangle">BACK</P> -->
                         <h3 class="text-center">juice.</h3>
                         <img src="./content/images/Juice/images (3).jpeg" alt="Juice">
                         <p id="para">Choose your taste</p>
@@ -650,6 +660,14 @@
                             $("#hideFifth").hide();
                             $("#hideSixth").hide();
                             $("#hideSeventh").fadeIn(1000);
+                        }
+
+                        document.getElementById("backBtn").onclick=function(){
+                            // alert("got it")
+                            $("#hideFirst").fadeOut(1000);
+                            $(".hideMenu").fadeIn(1000);
+
+
                         }
                         
                     </script>
