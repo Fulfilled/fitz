@@ -73,11 +73,6 @@ body{
     border: 1px solid rgb(33, 136, 56);
 }
 
-
-
-
-
-
 .menuButtons{
     position: relative;
     right: 0;
@@ -106,7 +101,7 @@ body{
     background-color: transparent;
     background-image: none;
 }
-.buttons button{
+.buttons a{
     
     color: rgb(33, 136, 56);
     border-color: rgb(33, 136, 56);
@@ -138,16 +133,16 @@ body{
     border-radius: 7px;
 }
 .arrow{
-    margin-top: 70px;
+    margin-top: 80px;
     margin-left:10px;
     margin-bottom: -20px;
     font-size: 2em; 
-}
-#hideFirst{
-    
     color:rgb(33, 136, 56);
 }
-#hideFirst h3{
+/* #first{
+   
+} */
+#first h3{
     color:rgb(33, 136, 56);
     font-weight: bold;
     font-size: 15em;
@@ -155,10 +150,109 @@ body{
     right: 25%;
     text-align: center;
 }
-#hideFirst img{
+#first img{
     position: relative;
     left: 40%;
     z-index: -1;
+}
+#second h3{
+    color:rgb(33, 136, 56);
+    font-weight: bold;
+    font-size: 15em;
+    position: absolute;
+    right: 7%;
+    text-align: center;
+}
+#second img{
+    position: relative;
+    left: 40%;
+    z-index: -1;
+}
+.buttonContainerSmoothie{
+    margin-top: -70px;
+}
+#third h3{
+    color:rgb(33, 136, 56);
+    font-weight: bold;
+    font-size: 15em;
+    position: absolute;
+    right: 17%;
+    text-align: center;
+}
+#third img{
+    position: relative;
+    left: 40%;
+    z-index: -1;
+}
+.buttonContainerParfait{
+    margin-top: -120px;
+}
+#fourth h3{
+    color:rgb(33, 136, 56);
+    font-weight: bold;
+    font-size: 15em;
+    position: absolute;
+    right: 10%;
+    text-align: center;
+}
+#fourth img{
+    position: relative;
+    left: 40%;
+    z-index: -1;
+}
+.buttonContainerYoghourt{
+    margin-top: -90px;
+}
+#fifth h3{
+    color:rgb(33, 136, 56);
+    font-weight: bold;
+    font-size: 15em;
+    position: absolute;
+    right: 25%;
+    text-align: center;
+    margin-top: -50px;
+}
+#fifth img{
+    position: relative;
+    left: 40%;
+    z-index: -1;
+}
+.buttonContainerDetox{
+    margin-top: -150px;
+}
+#sixth h3{
+    color:rgb(33, 136, 56);
+    font-weight: bold;
+    font-size: 15em;
+    position: absolute;
+    right: 25%;
+    text-align: center;
+    margin-top: -50px;
+}
+#sixth img{
+    position: relative;
+    left: 40%;
+    z-index: -1;
+}
+.buttonContainerWater{
+    margin-top: -150px;
+}
+#seventh h3{
+    color:rgb(33, 136, 56);
+    font-weight: bold;
+    font-size: 15em;
+    position: absolute;
+    right: 15%;
+    text-align: center;
+    margin-top: -60px;
+}
+#seventh img{
+    position: relative;
+    left: 40%;
+    z-index: -1;
+}
+.buttonContainerVeggies{
+    margin-top: -100px;
 }
 #para{
     font-size: 3em;
@@ -181,6 +275,23 @@ body{
 #detox h3{
     font-size: 3em;
     color:rgb(33, 136, 56);
+}
+.item{
+    margin: 50px 10px;
+}
+.image img{
+    border-radius: 7px;
+    width: 100%;
+}
+.writeUp{
+    
+}
+.order button{
+    color: rgb(33, 136, 56);
+    border-color: rgb(33, 136, 56);
+    border-radius: 30px;
+    background-color: transparent;
+    background-image: none;
 }
 h5{
     color:  rgb(33, 136, 56);
