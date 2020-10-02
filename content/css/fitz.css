@@ -2,6 +2,13 @@ body{
     position: relative;
     /* background-color: blueviolet; */
 }
+.buttons button{
+    color: rgb(33, 136, 56);
+    border-color: rgb(33, 136, 56);
+    border-radius: 30px;
+    background-color: transparent;
+    background-image: none;
+}
 
 
 #home img{
@@ -94,13 +101,7 @@ body{
     font-size: 3em;
     color: rgb(33, 136, 56);
 }
-.menuContainer button{
-    color: rgb(33, 136, 56);
-    border-color: rgb(33, 136, 56);
-    border-radius: 30px;
-    background-color: transparent;
-    background-image: none;
-}
+
 .buttons a{
     
     color: rgb(33, 136, 56);
@@ -134,7 +135,7 @@ body{
 }
 .arrow{
     margin-top: 80px;
-    margin-left:10px;
+    margin-left:25px;
     margin-bottom: -20px;
     font-size: 2em; 
     color:rgb(33, 136, 56);
@@ -286,13 +287,13 @@ body{
 .writeUp{
     
 }
-.order button{
+/* .order button{
     color: rgb(33, 136, 56);
     border-color: rgb(33, 136, 56);
     border-radius: 30px;
     background-color: transparent;
     background-image: none;
-}
+} */
 h5{
     color:  rgb(33, 136, 56);
 }
