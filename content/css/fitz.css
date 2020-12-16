@@ -280,9 +280,12 @@ body{
 .item{
     margin: 50px 10px;
 }
-.image img{
+
+.item img{
     border-radius: 7px;
-    width: 100%;
+   width: 500px;
+   height: 440px;
+    /* width: 100%; */
 }
 .writeUp{
     
