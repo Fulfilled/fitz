@@ -308,10 +308,36 @@ h4{
     color:  rgb(33, 136, 56);
 }
 
+.footer{
+    margin-top: 100px;
+    text-align: center;
+    background: #F5F2E7;
+    padding: 60px 0;
+    position: relative;
+    z-index: 80;
+}
+.footer a{
+    color: rgb(33, 136, 56);
+    text-decoration: none;
+}
+.social-media a {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: rgb(33, 136, 56);
+    
+}
 
+  .footer a:hover{
+    opacity: 0.6;
+  }
+ 
 
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
+      
     }
   }
