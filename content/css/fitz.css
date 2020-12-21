@@ -60,8 +60,10 @@ body{
         color: rgb(33, 136, 56);
 }
 .newMenuA{
-    margin-left: 70px;
+    /* margin-left: 70px; */
     margin-top: -25px;
+    /* background-color: red; */
+    
     /* align-items: center;
     align-content: center; */
 }
@@ -89,10 +91,12 @@ body{
     text-align: right;
 }
 .menu{
-    align-content: center;
-    text-align: center;
+   
+    /* align-content: center;
+    text-align: center; */
     /* padding-top: 45px; */
     /* width: 95%; */
+    /* background-color: green; */
 }
 #menu{
     padding-top: 50px;
@@ -303,3 +307,11 @@ h5{
 h4{
     color:  rgb(33, 136, 56);
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
